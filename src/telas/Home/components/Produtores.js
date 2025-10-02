@@ -37,7 +37,7 @@ const estilos = StyleSheet.create({
         marginHorizontal: 16,
         marginTop: 16,
         fontWeight: 'bold',
-        color: "#464646"
+        color: "black"
     }
 })
 

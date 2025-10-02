@@ -35,7 +35,7 @@ const estilos = StyleSheet.create({
   topo: {
     backgroundColor: "#F6F6F6",
     padding: 16,
-    width: "100vh",
+    width: "100%",
   },
   imagem: {
     width: 70,
@@ -50,6 +50,7 @@ const estilos = StyleSheet.create({
   legenda: {
     fontSize: 16,
     lineHeight: 16,
+    color: "grey"
   },
 });
 
