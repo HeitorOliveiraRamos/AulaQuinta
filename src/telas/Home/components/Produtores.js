@@ -24,12 +24,10 @@ export default function Produtores({topo: Topo}) {
     
     return <FlatList
         data={lista}
-        // renderItem={({ item: { nome } }) => <Text> {nome}</Text>}
         renderItem={({item}) => <Produtor {...item} />}
         keyExtractor={({ nome }) => nome}
         ListHeaderComponent={TopoLista}
         />
-    
 }
 
 const estilos = StyleSheet.create({
